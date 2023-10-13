@@ -36,6 +36,15 @@ img {
   font-weight: 800;
   font-size: 3rem;
 }
+.banner h2{
+  position: absolute;
+  top: 200px;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-weight: 800;
+  font-size: 3rem;
+}
 
 :root{
   --main-color: rgb(90, 155, 234);
@@ -71,4 +80,44 @@ span.ripple {
   transform: scale(0);
   animation: ripple 0.75s linear;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media screen and (max-width: 40em) {
+
+
+
+  img{
+
+    height: 100vh;
+    object-fit: cover;
+
+
+  }
+  .banner h1{
+    position: absolute;
+    top: 200px;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: 800;
+    font-size: 1rem;
+  }
+
+  .banner h2{
+    position: absolute;
+    top: 700px;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: 800;
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+
 }
